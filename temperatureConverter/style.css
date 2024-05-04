@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: #a1c4f8; */
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+    background-size: cover;
+}
+.main{
+    height: 500px;
+    width: 600px;
+    background:0px;
+    border-radius: 10px;
+    margin: 10% 0px 0px 30%;
+    padding-top: 30px;
+    box-shadow: inset 1px 1px 39px rgb(150, 164, 244);
+
+}
+.main h2{
+    text-align: center;
+    font-size:35px;
+    margin-bottom: 20px;
+    color:white;
+    text-shadow:2px 2px 20px #404bef;
+}
+.input{
+    height: fit-content;
+    width: 300px;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    margin: 10px;
+    margin-left:25%;
+    font-size: 20px;
+    padding: 20px;
+  box-shadow: inset 1px 1px 39px rgb(250, 26, 26);
+}
+.input select{
+    height: 30px;
+    width: 100%;
+    font-size: 15px;
+    border: 0px;
+    box-shadow: none;
+    margin: 10px 0px 0px 5px;
+}
+.input input{
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px 0px 0px 5px;
+    font-size: 25px;
+    box-shadow:3px 3px 39px #f68025;
+}
+.input p{
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 5px;
+    background-color: #fff;
+    padding-left: 10px;
+    font-size: 25px;
+    box-shadow:3px 3px 39px #f68025;
+}
+.main button{
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5% 0% 0% 35%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main button:hover{
+    background-color: #2fab3b;
+    border: 3px solid rgb(165, 222, 80);
+   transition: ease-in 0.2s;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
