@@ -1,0 +1,96 @@
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("traficbg.jpg");
+        background-size: cover;
+    }
+
+    .board {
+        height: auto;
+        /* Adjust height based on content */
+        width: 100%;
+        /* Take full width on smaller screens */
+        margin: 20px auto;
+        /* Adjust margin for smaller screens */
+    }
+
+    .red,
+    .yellow,
+    .green {
+        margin: 10px auto;
+        /* Adjust margin for smaller screens */
+    }
+
+    .stand {
+        margin: 0 auto;
+        /* Center stand on smaller screens */
+    }
+
+    #direction {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        padding: 2px 10px;
+        /* Adjust padding for smaller screens */
+    }
+}
+
+/* Default styles */
+body {
+    background-image: url("traficbg.jpg");
+    background-size: cover;
+}
+
+.board {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-style: double;
+    margin: 80px auto 0px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.red {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(249, 4, 4, 0.2);
+    margin: 8px auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.yellow {
+    height: 50px;
+    width: 50px;
+    transition: 1s ease-in;
+    background-color: rgba(255, 255, 4, 0.2);
+    margin: 8px auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.green {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(4, 123, 4, 0.2);
+    transition: 1s ease-in;
+    margin: 8px auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.stand {
+    height: 500px;
+    width: 10px;
+    background-color: #817979;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: -2px auto;
+    transform: 1s ease;
+}
+
+#direction {
+    font-size: 25px;
+    padding: 5px 15px;
+}
